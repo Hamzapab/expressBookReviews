@@ -1,0 +1,2 @@
+curl http://localhost:5000/isbn/10
+{"author":"Samuel Beckett","title":"Molloy, Malone Dies, The Unnamable, the trilogy","reviews":{}}
