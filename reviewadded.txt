@@ -1,0 +1,9 @@
+curl --location --request PUT 'http://localhost:5000/customer/auth/review/10?review=Good%20boo' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkhhbXphIiwiaWF0IjoxNzY3MTMwNzQ5LCJleHAiOjE3NjcxMzQzNDl9.W9mn0e0hK1csxsuwX_hBpDaCJ_q2gsg0MelLcrbwP-4' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: connect.sid=s%3ATEKwxxjcl-8MpRaibes8NieNjl_Ls5c1.oaFoSZjqoL6SgmyrmBGb08w2ZEaQtBYvJNnjcPx1NqQ' \
+--data '{
+    "review" : "Good book"
+}'
+{"message":"Review added/updated successfully","isbn":"10","user":"Hamza","revie
+w":"Good boo"}

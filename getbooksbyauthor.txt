@@ -1,4 +1,4 @@
-$ curl http://localhost:5000/author/Chinua%20Achebe
+  curl http://localhost:5000/author/Chinua%20Achebe
 [
   {
     "author": "Chinua Achebe",

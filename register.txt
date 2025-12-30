@@ -1,4 +1,4 @@
- curl --location 'http://localhost:5000/customer/login' --header 'Content-Type: application/json' --header 'Cookie: connect.sid=s%3AgQhkoxzLQRxFCNJjAEV3wBvEayUSbLo7.3eNrxXQM%2BZVqobHJH4YRTp6Q025p8ZM%2BAwkMH8mjivM' --data '{
+ curl --location 'http://localhost:5000/register' --header 'Content-Type: application/json' --header 'Cookie: connect.sid=s%3AgQhkoxzLQRxFCNJjAEV3wBvEayUSbLo7.3eNrxXQM%2BZVqobHJH4YRTp6Q025p8ZM%2BAwkMH8mjivM' --data '{
     "username" : "Ahmed",
     "password" : "123"
 }'

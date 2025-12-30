@@ -1,0 +1,10 @@
+ curl --location 'http://localhost:5000/customer/login' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: connect.sid=s%3At4khrNwklwkvAzehmMcm4kFwtsB67ss3.N1hfqQ3NIdCu6n3RuWZjEDpZC6kZAAE8YQAFThteObg' \
+--data '{
+    "username" : "Hamza",
+    "password" : "123"
+}'
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkhhbXphIiwiaWF0I
+joxNzY3MTI5MDU0LCJleHAiOjE3NjcxMzI2NTR9.W1wbYCVLVuIcA0M8OgL8AjmTbs0NyANWAmCeQd4h
+4us"}
